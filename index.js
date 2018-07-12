@@ -7,8 +7,8 @@ import Albumlist from './src/components/Albumlist';
 //komponentler - Bileşenler
 
 const App = () => (
-  <View>
-    <Header headerText={'Titles!'} />
+  <View style={{ flex: 1 }}> //ScrollView full screen style.
+    <Header headerText={'Albums'} />
     <Albumlist />
   </View>
   );
